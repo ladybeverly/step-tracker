@@ -29,20 +29,54 @@
 		119DC1EB2F634D4400427E75 /* Step TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		11BA8AC02F995C15005953F0 /* Exceptions for "Step Tracker" folder in "Step Tracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Charts/StepBarChart.swift,
+				Managers/HealthKitManager.swift,
+				Model/HealthMetric.swift,
+				Screens/DashboardView.swift,
+				Screens/HealthDataListView.swift,
+				Screens/HealthKitPermissionPrimingView.swift,
+				Step_TrackerApp.swift,
+			);
+			target = 119DC1D32F634D4200427E75 /* Step Tracker */;
+		};
+		11BA8AC12F995C15005953F0 /* Exceptions for "Step Tracker" folder in "Step TrackerUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Charts/StepBarChart.swift,
+				Managers/HealthKitManager.swift,
+				Model/HealthMetric.swift,
+				Screens/DashboardView.swift,
+				Screens/HealthDataListView.swift,
+				Screens/HealthKitPermissionPrimingView.swift,
+				"Step TrackerTests/Step_TrackerTests.swift",
+				Step_TrackerApp.swift,
+			);
+			target = 119DC1EA2F634D4400427E75 /* Step TrackerUITests */;
+		};
+		11BA8ACE2F995D3F005953F0 /* Exceptions for "Step Tracker" folder in "Step TrackerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Step TrackerTests/Step_TrackerTests.swift",
+			);
+			target = 119DC1E02F634D4400427E75 /* Step TrackerTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		119DC1D62F634D4200427E75 /* Step Tracker */ = {
+		11BA8AB32F995BDC005953F0 /* Step Tracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				11BA8AC02F995C15005953F0 /* Exceptions for "Step Tracker" folder in "Step Tracker" target */,
+				11BA8ACE2F995D3F005953F0 /* Exceptions for "Step Tracker" folder in "Step TrackerTests" target */,
+				11BA8AC12F995C15005953F0 /* Exceptions for "Step Tracker" folder in "Step TrackerUITests" target */,
+			);
 			path = "Step Tracker";
-			sourceTree = "<group>";
-		};
-		119DC1E42F634D4400427E75 /* Step TrackerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Step TrackerTests";
-			sourceTree = "<group>";
-		};
-		119DC1EE2F634D4400427E75 /* Step TrackerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Step TrackerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +109,7 @@
 		119DC1CB2F634D4200427E75 = {
 			isa = PBXGroup;
 			children = (
-				119DC1D62F634D4200427E75 /* Step Tracker */,
-				119DC1E42F634D4400427E75 /* Step TrackerTests */,
-				119DC1EE2F634D4400427E75 /* Step TrackerUITests */,
+				11BA8AB32F995BDC005953F0 /* Step Tracker */,
 				119DC1D52F634D4200427E75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,9 +139,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				119DC1D62F634D4200427E75 /* Step Tracker */,
-			);
 			name = "Step Tracker";
 			packageProductDependencies = (
 			);
@@ -129,9 +158,6 @@
 			);
 			dependencies = (
 				119DC1E32F634D4400427E75 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				119DC1E42F634D4400427E75 /* Step TrackerTests */,
 			);
 			name = "Step TrackerTests";
 			packageProductDependencies = (
@@ -154,7 +180,7 @@
 				119DC1ED2F634D4400427E75 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				119DC1EE2F634D4400427E75 /* Step TrackerUITests */,
+				11BA8AB32F995BDC005953F0 /* Step Tracker */,
 			);
 			name = "Step TrackerUITests";
 			packageProductDependencies = (
