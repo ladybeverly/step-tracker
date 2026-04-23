@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		11BA8ADB2F9ADF14005953F0 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 11BA8ADA2F9ADF14005953F0 /* Algorithms */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		119DC1E22F634D4400427E75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,7 +38,10 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
+				Charts/ChartDataTypes.swift,
+				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
+				"Extensions/Date+Ext.swift",
 				Managers/HealthKitManager.swift,
 				Model/HealthMetric.swift,
 				Screens/DashboardView.swift,
@@ -48,6 +55,8 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
+				Charts/ChartDataTypes.swift,
+				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Managers/HealthKitManager.swift,
 				Model/HealthMetric.swift,
@@ -86,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BA8ADB2F9ADF14005953F0 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +151,7 @@
 			);
 			name = "Step Tracker";
 			packageProductDependencies = (
+				11BA8ADA2F9ADF14005953F0 /* Algorithms */,
 			);
 			productName = "Step Tracker";
 			productReference = 119DC1D42F634D4200427E75 /* Step Tracker.app */;
@@ -221,6 +232,9 @@
 			);
 			mainGroup = 119DC1CB2F634D4200427E75;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				11BA8AD92F9ADF14005953F0 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 119DC1D52F634D4200427E75 /* Products */;
 			projectDirPath = "";
@@ -602,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11BA8AD92F9ADF14005953F0 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11BA8ADA2F9ADF14005953F0 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11BA8AD92F9ADF14005953F0 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 119DC1CC2F634D4200427E75 /* Project object */;
 }
