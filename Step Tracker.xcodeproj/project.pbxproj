@@ -42,13 +42,15 @@
 				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Charts/StepPieChart.swift,
-				"Extensions/Date+Ext.swift",
+				Charts/WeightLineChart.swift,
 				Managers/HealthKitManager.swift,
 				Model/HealthMetric.swift,
 				Screens/DashboardView.swift,
 				Screens/HealthDataListView.swift,
 				Screens/HealthKitPermissionPrimingView.swift,
 				Step_TrackerApp.swift,
+				"Utilities/Extensions/Date+Ext.swift",
+				Utilities/MockData.swift,
 			);
 			target = 119DC1D32F634D4200427E75 /* Step Tracker */;
 		};
@@ -60,6 +62,7 @@
 				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Charts/StepPieChart.swift,
+				Charts/WeightLineChart.swift,
 				Managers/HealthKitManager.swift,
 				Model/HealthMetric.swift,
 				Screens/DashboardView.swift,
