@@ -124,11 +124,12 @@ enum STError: Error {
         }
         let stepQuantity = HKQuantity(unit: .count(), doubleValue: value)
         let stepSample = HKQuantitySample(type: HKQuantityType(.stepCount), quantity: stepQuantity, start: date, end: date)
-       
+        
         do {
             try await store.save(stepSample)
         } catch {
             throw STError.unableToCompleteRequest
+        }
     }
     
     func addWeightData(for date: Date, value: Double) async throws {
