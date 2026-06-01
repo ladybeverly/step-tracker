@@ -84,7 +84,6 @@ struct HealthDataListView: View {
                                     writeError = .unableToCompleteRequest
                                     isShowingAlert = true
                                 }
-                                
                             } else {
                                 do {
                                     try await hkManager.addWeightData(for: addDataDate, value: Double(valueToAdd)!)

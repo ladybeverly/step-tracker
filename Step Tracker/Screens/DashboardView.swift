@@ -7,14 +7,13 @@
 
 import SwiftUI
 import Charts
-    
+
 enum HealthMetricContext: CaseIterable, Identifiable {
-        
-        case steps, weight
-        var id: Self { self }
+    case steps, weight
+    var id: Self { self }
     
-        var title: String {
-            switch self {
+    var title: String {
+        switch self {
         case .steps:
             return "Steps"
         case .weight:
@@ -83,11 +82,10 @@ struct DashboardView: View {
             } message: { fetchError in
                 Text(fetchError.failureReason)
             }
-
         }
         .tint(isSteps ? .pink : .indigo)
     }
-    }
+}
 
 #Preview {
     DashboardView()
