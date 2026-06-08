@@ -39,6 +39,7 @@
 			membershipExceptions = (
 				Assets.xcassets,
 				Charts/ChartDataTypes.swift,
+				Charts/ChartEmptyView.swift,
 				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Charts/StepPieChart.swift,
@@ -60,6 +61,7 @@
 			membershipExceptions = (
 				Assets.xcassets,
 				Charts/ChartDataTypes.swift,
+				Charts/ChartEmptyView.swift,
 				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Charts/StepPieChart.swift,
