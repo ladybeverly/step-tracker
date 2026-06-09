@@ -38,8 +38,11 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
+				Charts/ChartAnnotationView.swift,
+				Charts/ChartContainer.swift,
 				Charts/ChartDataTypes.swift,
 				Charts/ChartEmptyView.swift,
+				Charts/ChartHelper.swift,
 				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Charts/StepPieChart.swift,
@@ -60,8 +63,11 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
+				Charts/ChartAnnotationView.swift,
+				Charts/ChartContainer.swift,
 				Charts/ChartDataTypes.swift,
 				Charts/ChartEmptyView.swift,
+				Charts/ChartHelper.swift,
 				Charts/ChartMath.swift,
 				Charts/StepBarChart.swift,
 				Charts/StepPieChart.swift,
