@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@MainActor
 struct HealthDataListView: View {
     
     @Environment(HealthKitManager.self) private var hkManager
