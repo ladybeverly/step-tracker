@@ -56,6 +56,7 @@
 				Step_TrackerApp.swift,
 				"Utilities/Extensions/Date+Ext.swift",
 				Utilities/MockData.swift,
+				Utilities/STError.swift,
 			);
 			target = 119DC1D32F634D4200427E75 /* Step Tracker */;
 		};
