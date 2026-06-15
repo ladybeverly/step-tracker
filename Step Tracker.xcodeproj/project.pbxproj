@@ -54,6 +54,7 @@
 				Screens/HealthDataListView.swift,
 				Screens/HealthKitPermissionPrimingView.swift,
 				Step_TrackerApp.swift,
+				"Utilities/Extensions/Array+Ext.swift",
 				"Utilities/Extensions/Date+Ext.swift",
 				Utilities/MockData.swift,
 				Utilities/STError.swift,
